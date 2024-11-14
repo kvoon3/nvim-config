@@ -34,7 +34,7 @@ vim.keymap.set('v', '>', '>gv', opts)
 vim.keymap.set("v", "J", ":move '>+1<CR>gv-gv", opts)
 vim.keymap.set("v", "K", ":move '<-2<CR>gv-gv", opts)
 
-vim.keymap.set('n', '<c-t>', ':Ex<CR>')
+vim.keymap.set('n', '<leader>e', ':Ex<CR>')
 vim.keymap.set('n', "<c-'>", ':q')
 
 vim.keymap.set("n", '<c-s>', ':w<CR>')
@@ -45,3 +45,5 @@ vim.keymap.set('n', '<leader>ff', builtin.live_grep, { desc = 'Telescope live gr
 vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
 
+vim.keymap.set('n', '<leader>p', '"+p')
+vim.keymap.set('n', '<leader>a', 'ggVG')
