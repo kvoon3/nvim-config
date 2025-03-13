@@ -1,5 +1,5 @@
 local default_im_select = '2053-0'
-local default_command = "C:\\im-select-imm.exe"
+local default_command = "C:\\im-select\\im-select-imm.exe"
 
 if(vim.fn.has('macunix')) then
   default_im_select = "com.apple.keylayout.ABC"
