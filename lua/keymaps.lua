@@ -34,7 +34,7 @@ vim.keymap.set('v', '>', '>gv', opts)
 vim.keymap.set("v", "J", ":move '>+1<CR>gv-gv", opts)
 vim.keymap.set("v", "K", ":move '<-2<CR>gv-gv", opts)
 
-vim.keymap.set('n', '<leader>e', ':Ex<CR>')
+vim.keymap.set('n', '<leader><BS>', ':Ex<CR>')
 vim.keymap.set('n', "<c-'>", ':q')
 
 vim.keymap.set("n", '<c-s>', ':w<CR>')
